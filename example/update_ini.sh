@@ -31,3 +31,5 @@ function update_config() {
     }
   }' "$ini_file" > temp.ini && mv temp.ini "$ini_file"
 }
+
+update_config "config.ini" "database" "host" "new_host_value" "new_host_value" 
